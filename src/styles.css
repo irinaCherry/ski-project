@@ -59,6 +59,7 @@ a:hover {
   display: flex;
   margin: 0 auto;
   max-width: 100%;
+
   border-radius: 8px;
 }
 .highlight {
