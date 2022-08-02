@@ -1,0 +1,68 @@
+body {
+  /* background-color: rgb(218, 218, 210); */
+
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  text-align: center;
+  color: #9a86a4;
+  padding: 10px;
+  font-weight: 800;
+}
+
+hr {
+  color: #9a86a4;
+  size: 0.5px;
+}
+
+.learn-more {
+  line-height: 50px;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: 600;
+}
+
+.button {
+  display: block;
+  text-decoration: none;
+  margin: 10px auto;
+  line-height: 20px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 30px;
+  color: #f1f0c0;
+  background-color: #9a86a4;
+  box-shadow: 2px 2px 8px 0.5px #9a86a4;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+}
+.button:hover {
+  opacity: 70%;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.body {
+  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  margin: 0 auto;
+}
+
+.main_img {
+  display: flex;
+  margin: 0 auto;
+  max-width: 60%;
+  border-radius: 8px;
+}
+.resort_img {
+  display: flex;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 8px;
+}
+.highlight {
+  color: #9a86a4;
+  background: #f1f0c0;
+  font-weight: 600;
+}
